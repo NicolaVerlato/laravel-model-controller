@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  box-shadow: 0 0 18px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-image: linear-gradient(to right, lime, lightgreen);
+  cursor: pointer;
+}
+
+.card h3 {
+  padding-bottom: 10px;
+}
+
